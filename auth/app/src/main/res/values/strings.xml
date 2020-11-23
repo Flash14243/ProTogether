@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Аутентификация</string>
+
+    <string name="label_google_sign_in">Google account</string>
+    <string name="desc_google_sign_in">Используйте Google аккаунт, что бы войти.</string>
+
+    <string name="label_facebook_login">Facebook account</string>
+    <string name="desc_facebook_login">Используйте Facebook аккаунт, что бы войти.</string>
+
+    <string name="label_emailpassword">Вход по электронной почте</string>
+    <string name="desc_emailpassword">Используйте электронную почту и пароль для аутентификации в Firebase.</string>
+
+    <string name="label_passwordless">Аутентификации по почте без пароля.</string>
+    <string name="desc_passwordless">Используйте только почту, что бы авторизироваться.</string>
+
+    <string name="label_phone_auth">Номер телефона</string>
+    <string name="desc_phone_auth">Используйте номер телефона что бы авторизироваться.</string>
+
+    <string name="label_anonymous_auth">Анонимный вход</string>
+    <string name="desc_anonymous_auth">Войти анонимно, что бы потом использовать полный доступ.</string>
+
+    <string name="label_custom_auth">Custom Authentication</string>
+    <string name="desc_custom_auth">Используйте custom token, что бы войти.</string>
+
+    <string name="label_firebase_ui">FirebaseUI Auth</string>
+    <string name="desc_firebase_ui">Используйте FirebaseUI, что бы войти.</string>
+
+    <string name="label_generic_idp">Generic OAuth</string>
+    <string name="desc_generic_idp">Используйте вход по OAuth.</string>
+
+    <string name="label_multi_factor">Многофакторная Аутентификация</string>
+    <string name="desc_multi_factor">Используйте SMS для двухфакторной аутентификации.</string>
+
+    <string name="hint_user_id">Ваш ID:</string>
+    <string name="get_custom_token">Получить токен</string>
+    <string name="sign_in">Вход</string>
+    <string name="create_account">Создать аккаунт</string>
+    <string name="send_link">Отправить ссылку</string>
+    <string name="sign_out">Выйти</string>
+    <string name="verify_email">Подтвердить</string>
+    <string name="disconnect">Разрыв связи</string>
+    <string name="loading">Загрузка…</string>
+    <string name="custom_token">Custom Token</string>
+    <string name="signed_in">Вход</string>
+    <string name="signed_out">Вход не выполнен</string>
+    <string name="token_null">Нулевой токен</string>
+    <string name="hint_email">Почта</string>
+    <string name="hint_password">Пароль</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="auth_failed">Ошибка аутентификация</string>
+    <string name="start_phone_auth">Начать</string>
+    <string name="verify_phone_auth">Подтвердить</string>
+    <string name="resend_phone_auth">Отправить снова</string>
+    <string name="hint_phone_number">Номер телефона</string>
+    <string name="hint_verification_code">Код авторизации</string>
+    <string name="status_code_sent">Код отправлен</string>
+    <string name="status_verification_failed">Ошибка проверки</string>
+    <string name="status_verification_succeeded">Проверка успешна</string>
+    <string name="status_sign_in_failed">Ошибка входа</string>
+    <string name="instant_validation">(мгновенное подтверждение)</string>
+
+    <string name="firebase_status_fmt">UID: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+
+    <string name="google_status_fmt">Google User: %s</string>
+    <string name="google_title_text">Google Вход</string>
+
+    <string name="facebook_status_fmt">Facebook User: %s</string>
+    <string name="facebook_title_text">Facebook Login</string>
+
+    <string name="emailpassword_status_fmt">Почта пользователя: %1$s (verified: %2$b)</string>
+    <string name="emailpassword_title_text">Добро пожаловать!</string>
+
+    <string name="passwordless_status_fmt">Почта пользователя: %1$s (verified: %2$b)</string>
+    <string name="passwordless_title_text">Вход по почте</string>
+    <string name="status_email_not_sent">Отправьте ссылку на свою электронную почту, чтобы начать работу.</string>
+    <string name="status_email_sent">Ссылка отправлена, проверьте вашу почту.</string>
+    <string name="status_link_found">Ссылка получена, введите адрес электронной почты для входа в систему.</string>
+
+    <string name="phone_title_text">Номер телефона</string>
+
+    <string name="twitter_status_fmt">Twitter User: %s</string>
+    <string name="twitter_title_text">Twitter Login</string>
+
+    <string name="firebaseui_status_fmt">Firebase User: %s</string>
+    <string name="firebaseui_title_text">FirebaseUI Auth</string>
+
+    <string name="generic_title_text">OAuth Sign In</string>
+    <string name="generic_signin_fmt">Sign In with %s</string>
+    <string name="generic_status_fmt">Пользователь: %s (%s)</string>
+    <string name="generic_label_provider">Provider:</string>
+
+    <string name="id_fmt">Ваш ID: %s</string>
+    <string name="email_fmt">Почта: %s</string>
+
+    <string name="enroll_mfa">Enroll MFA</string>
+    <string name="unenroll_mfa">Unenroll MFA</string>
+    <string name="reload">Обновить</string>
+
+    <string name="custom_auth_signin_status_user">Ваш ID: %s</string>
+    <string name="custom_auth_signin_status_failed">Ошибка: вход не выполнен</string>
+
+    <string name="error_sign_in_failed">Вход не выполнен</string>
+    <string name="multi_factor_signed_out">You are not signed in. To use this sample, first navigate to the Email/Password example to sign in and then return here to enroll in multi-factor auth.</string>
+
+</resources>
